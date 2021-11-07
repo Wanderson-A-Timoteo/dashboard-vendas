@@ -23,14 +23,10 @@
 
 <br>
 
-O projeto foi desenvolvido <br>
+O projeto DSVendas consiste em uma análise de dados para demonstração de forma visual por meio de gráficos as vendas realizadas. Usando Banco de Dados Relacional e entrega continua. <br>
 <br>
-O banckend (API) foi desenvolvido em Spring Boot. <br>  
-O frontend foi desenvolvido em React.js. 💜
-
----
-
-<br>
+O banckend (API) foi desenvolvido com Spring Boot, utilizando o Banco de Dados PostgreSQL e efetuado deploy no Heroku. <br>  
+O frontend foi desenvolvido com React.js, utilizando Axios para integração com o Backend e deploy no Netlify. 💜
 
 ---
 
@@ -41,7 +37,17 @@ O frontend foi desenvolvido em React.js. 💜
 Tela inicial do sistema.
 
 <p align="center">
-    <img alt="devFreela" title="devFreela" src="https://github.com/Wanderson-A-Timoteo/devfreela/blob/main/.github/home-dsvendas.PNG?raw=true" />
+</p>    <img alt="Dashboard de Vendas" title="Dashboard de Vendas" src="https://github.com/Wanderson-A-Timoteo/dashboard-vendas/blob/main/.github/home-dsvendas.PNG?raw=true" />
+
+<br>
+
+---
+
+<br>
+Dashboard de Vendas
+
+<p align="center">
+    <img alt="Dashboard de Vendas" title="Dashboard de Vendas" src="https://github.com/Wanderson-A-Timoteo/dashboard-vendas/blob/main/.github/dashboard-dsvendas.PNG?raw=true" />
 </p>
 <br>
 
@@ -51,7 +57,7 @@ Tela inicial do sistema.
 Dashboard de Vendas
 
 <p align="center">
-    <img alt="devFreela" title="devFreela" src="https://github.com/Wanderson-A-Timoteo/devfreela/blob/main/.github/dashboard-dsvendas.PNG?raw=true" />
+    <img alt="Dashboard de Vendas" title="Dashboard de Vendas" src="https://github.com/Wanderson-A-Timoteo/dashboard-vendas/blob/main/.github/dsvendas.gif?raw=true" />
 </p>
 <br>
 
@@ -66,9 +72,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://reactjs.org/)
 - [PostgreSQL](https://sqlite.org/index.html)
-- [Styled Components](https://styled-components.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Axios](https://axios-http.com/)
 - [TypeScripts](https://www.typescriptlang.org/)
+- [Java](https://www.oracle.com/java/technologies/downloads/)
+- [Spring Boot](https://start.spring.io/)
+- [Heroku](https://www.heroku.com/)
+- [Netlify](https://www.netlify.com/)
+- [Apexcharts](https://apexcharts.com/)
 
 <br>
 
@@ -80,8 +91,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔥 Executando Localmente a Aplicação
 
-Caso você deseja executar o projeto na sua máquina local, você terá que instalar o Node.js, Java SDK. <br>
-Após instalar, basta seguir os passos abaixo:
+Caso você deseja executar o projeto na sua máquina local, você terá que instalar o Node.js, Java JDK e outras ferramentas. <br>
+
+- [Configurações Necessárias](https://www.youtube.com/playlist?list=PLNuUvBZGBA8kMTSPMmmNiRm2z0gRxXxox)
+  <br>
+  Após instalar, basta seguir os passos abaixo:
 
 ### 🌀 Começando...
 
@@ -103,7 +117,7 @@ Você precisará executar 2 passos: <br>
 Acessar o projeto frontend na pasta `frontend` digitar no cmd a seguinte instrução: **(dentro da pasta `frontend` do projeto clonado)**
 
 ```
-npm install
+yarn install
 ```
 
 Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
@@ -115,7 +129,7 @@ Ao digitar a instrução acima, automaticamente ele irá baixar todas as depend�
 Bom, agora **(dentro da pasta `frontend` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
 
 ```
-npm start
+yarn start
 ```
 
 Pronto! dessa forma o projeto frontend estará rodando localmente em sua maquina, acesse:
@@ -131,23 +145,11 @@ http://localhost:3000
 <br>
 
 2 - PASSO <br>
-Abra outro terminal e acesse o projeto backend na pasta `backend` digitar no cmd a seguinte instrução: **(dentro da pasta `backend` do projeto clonado)**
-
-```
->
-```
-
-Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json e em composer.json:
-
-- `pom.xml` - que contêm os packages do npm e composer que precisará para o projeto.
+Usando a ferramenta Spring Tool Suite 4, importe a pasta `backend` e faça a instalação das dependencias: **(dentro da pasta `backend` do projeto clonado)**
 
 #### 💨 Executando a Aplicação
 
-Bom, agora **(dentro da pasta `backend` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
-
-```
->
-```
+Bom, agora **(execute o projeto `backend`)** com Spring Tool Suite 4.
 
 Pronto! dessa forma o projeto backend estará rodando localmente em sua maquina, acesse:
 
@@ -192,12 +194,16 @@ Feito com ♥ by
 ---
 
 <br>
+
 ## Agradecimentos:
 
+<br>
+
 <h1 align="center">
-    <img alt="DevSuperior" title="DevSuperior"  src=".github/devsuperior.png" />
+    <img alt="DevSuperior" title="DevSuperior" 
+    width="300" heigth="200" src=".github/devsuperior.png" />
 </h1>
 
-- Projeto desenvolvido durante a [Semana Spring React](https://devsuperior.com.br/) da DevSuperior.
+- Projeto desenvolvido durante a [Semana Spring React](https://devsuperior.com.br/) da escola DevSuperior.
 
 - Agradecimento ao [Nelio Alves](https://github.com/acenelio) por compartilhar conteúdo relevante e com qualidade de ensino.
